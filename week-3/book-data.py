@@ -1,6 +1,6 @@
 import sqlite3
 
-booklib=sqlite3.connect("ass5\Booklib.db")
+booklib=sqlite3.connect("Booklib.db")
 book=booklib.cursor()
 z=0
 z=int(input("Creating new database.....Press 1 if already created!"))
